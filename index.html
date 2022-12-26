@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="https://cdn.glitch.global/c136d4af-df28-469e-823c-834466ea8ef9/favicon-32x32.png?v=1672000876792"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="main.js" defer></script>
+    <title>Frontend Mentor | Insure landing page</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="head flex bg-neutral-900">
+        <div>
+          <img
+            src="https://cdn.glitch.global/c136d4af-df28-469e-823c-834466ea8ef9/logo.svg?v=1672000995216"
+            alt=""
+          />
+        </div>
+        <div>
+          <img
+            class="hamburger"
+            src="https://cdn.glitch.global/c136d4af-df28-469e-823c-834466ea8ef9/icon-hamburger.svg?v=1672000922003"
+            alt="the main menu"
+          />
+        </div>
+        
+      </div>
+      <section class="header grid bg-neutral-100 text-neutral-900">
+        <nav>
+          <ul
+            role="list"
+            class="primary-nav grid bg-primary-200 text-neutral-900" data-open="false"
+          >
+            <li>
+              How we work
+            </li>
+            <li>
+              Blog
+            </li>
+            <li>
+              Account
+            </li>
+            <li>
+              View plans
+            </li>
+          </ul>
+        </nav>
+        <div>
+          <picture>
+            <source
+              srcset="
+                https://cdn.glitch.global/c136d4af-df28-469e-823c-834466ea8ef9/image-intro-desktop.jpg?v=1672000978873
+              "
+              alt=""
+              media="(min-width: 600px)"
+            />
+
+            <img
+              src="https://cdn.glitch.global/c136d4af-df28-469e-823c-834466ea8ef9/image-intro-mobile.jpg?v=1672000987670"
+              alt=""
+            />
+          </picture>
+        </div>
+        <div>
+          <h1>Humanizing your insurance.</h1>
+          <p>
+            Get your life insurance coverage easier and faster. We blend our
+            expertise and technology to help you find the plan that’s right for
+            you. Ensure you and your loved ones are protected.
+          </p>
+          <button>View plans</button>
+        </div>
+      </section>
+    </header>
+    <div class="container">
+      <main>
+        <section>
+          <h2>We’re different</h2>
+          <div class="grid">
+            <section class="grid info">
+              <div>
+                <img
+                  src="https://cdn.glitch.global/c136d4af-df28-469e-823c-834466ea8ef9/icon-snappy-process.svg?v=1672000960969"
+                  alt=""
+                />
+              </div>
+              <h3>Snappy Process</h3>
+              <p>
+                Our application process can be completed in minutes, not hours.
+                Don’t get stuck filling in tedious forms.
+              </p>
+            </section>
+            <section class="grid">
+              <div>
+                <img
+                  src="https://cdn.glitch.global/c136d4af-df28-469e-823c-834466ea8ef9/icon-affordable-prices.svg?v=1672000890567"
+                  alt=""
+                />
+              </div>
+              <div>
+                <h3>Affordable Prices</h3>
+                <p>
+                  We don’t want you worrying about high monthly costs. Our
+                  prices may be low, but we still offer the best coverage
+                  possible.
+                </p>
+              </div>
+            </section>
+            <section class="grid">
+              <div>
+                <img
+                  src="https://cdn.glitch.global/c136d4af-df28-469e-823c-834466ea8ef9/icon-people-first.svg?v=1672000940539"
+                  alt=""
+                />
+              </div>
+              <div>
+                <h3>People First</h3>
+                <p>
+                  Our plans aren’t full of conditions and clauses to prevent
+                  payouts. We make sure you’re covered when you need it.
+                </p>
+              </div>
+            </section>
+          </div>
+        </section>
+        <section>
+          <h2>Find out more about how we work</h2>
+          <button>How we work</button>
+        </section>
+      </main>
+
+      <footer>
+        <div class="grid">
+          <div>
+            <img
+              src="https://cdn.glitch.global/c136d4af-df28-469e-823c-834466ea8ef9/logo.svg?v=1672000995216"
+              alt=""
+            />
+          </div>
+          <div class="socials flex">
+            <img
+              src="https://cdn.glitch.global/c136d4af-df28-469e-823c-834466ea8ef9/icon-facebook.svg?v=1672000909123"
+              alt=""
+            />
+            <img
+              src="https://cdn.glitch.global/c136d4af-df28-469e-823c-834466ea8ef9/icon-twitter.svg?v=1672000969517"
+              alt=""
+            />
+            <img
+              src="https://cdn.glitch.global/c136d4af-df28-469e-823c-834466ea8ef9/icon-pinterest.svg?v=1672000952746"
+              alt=""
+            />
+            <img
+              src="https://cdn.glitch.global/c136d4af-df28-469e-823c-834466ea8ef9/icon-instagram.svg?v=1672000932246"
+              alt=""
+            />
+          </div>
+        </div>
+        <nav class="secondary-nav">
+          <section>
+            <h2>Our company</h2>
+            <ul role="list">
+              <li>How we work</li>
+              <li>Why Insure?</li>
+              <li>View plans</li>
+              <li>Reviews</li>
+            </ul>
+          </section>
+          <section>
+            <h2>Help me</h2>
+            <ul role="list">
+              <li>FAQ</li>
+              <li>Terms of use</li>
+              <li>Privacy policy</li>
+              <li>Cookies</li>
+            </ul>
+          </section>
+          <section>
+            <h2>Contact</h2>
+            <ul role="list">
+              <li>Sales</li>
+              <li>Support</li>
+              <li>Live chat</li>
+            </ul>
+          </section>
+          <section>
+            <h2>Others</h2>
+            <ul role="list">
+              <li>Careers</li>
+              <li>Press</li>
+              <li>Licenses</li>
+            </ul>
+          </section>
+        </nav>
+      </footer>
+    </div>
+  </body>
+</html>
